@@ -4,6 +4,7 @@ import pandas_datareader as pdr
 from pandas_datareader import data as wb
 from pandas_datareader._utils import RemoteDataError
 from datetime import date, timedelta, datetime
+from dateutil.relativedelta import relativedelta
 import csv
 import streamlit as st
 import time
@@ -22,6 +23,7 @@ st.markdown(subheader, unsafe_allow_html=True)
 tickerList = pd.read_csv("docs/Viop.csv")
 tickers=tickerList["Ticker"]
 start_date=(date.today()-timedelta(days=360))
+# start_date=(date.today()-relativedelta(years=1))
 data_source='yahoo'
 user_input = st.selectbox('Hisse',tickers,index=0,help='Analiz Etmek İstediğiniz Hisseyi Seçebilirsiniz.')
 if user_input:
@@ -116,14 +118,13 @@ if user_input:
             st.write('**Zarar Kes**')
             st.write(tradeable()[6])
         with col5:
-            st.write('**Kar Hedefi**')
+            st.write('**Kazanma Potansiyeli**')
             st.write(tradeable()[3])
         with col6:
-            st.markdown('**Zarar Pot.**')
+            st.markdown('**Kaybetme Potansiyeli**')
             st.write(tradeable()[4])
         
-st.subheader('BIST50 Al Tavsiyeleri')
-#Analyze ALL
+st.subheader('BIST50 Hisse Senetleri İçindeki Al Veren Hisseler')
 
 analyze_all_btn = st.button('BIST50 Al Önerileri')
 if analyze_all_btn:
@@ -146,19 +147,11 @@ if analyze_all_btn:
         with col5:
             st.write('**Zarar Kes**')
         with col6:
-            st.write('**Kar Hedefi**')
+            st.write('**Kazanma Potansiyeli**')
         with col7:
-            st.markdown('**Zarar Pot.**')
+            st.markdown('**Kaybetme Potansiyeli**')
     for i in tickers:
-        with st.spinner(text='Analiz Edliyor'):
-            time.sleep(1)
-            # st.success('Tamamlandı')
- 
-        
         try:
-            for precent_complete in range(100):
-                    time.sleep(0.001)
-                    analyze_bar.progress(precent_complete + 1)
             ticker = i
             ticker_data=wb.DataReader(ticker,data_source=data_source,start=start_date)
             df=pd.DataFrame(ticker_data)
@@ -179,12 +172,10 @@ if analyze_all_btn:
             new_high=str(recommendationList[1])
             buy=str(recommendationList[2])
             dontBuy=str(recommendationList[3])
-            @st.cache
             def tradeable():
-                # analyze_bar = st.progress(0)
-                # for precent_complete in range(100):
-                #     time.sleep(0.1)
-                #     analyze_bar.progress(precent_complete + 1)
+                for precent_complete in range(100):
+                    time.sleep(0.1)
+                    analyze_bar.progress(precent_complete + 1)
                 if (last_price<min10):
                     str_ticker=str("{}".format(ticker))
                     recommendation=new_low
@@ -234,32 +225,31 @@ if analyze_all_btn:
                         str_target_SalePrice=str("{:.2f}".format(max10))
                         str_stopLoss=str("{:.2f}".format(min10))
                         return str_ticker,recommendation,str_lastPrice,str_earn_potential,str_loss_potential,str_target_SalePrice,str_stopLoss
-            # with st.container():
-            if tradeable()[1] == buy or tradeable()[1] == new_high:
-                col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
-                with col1:
-                    st.write(tradeable()[0])
-                with col2:
-                    st.write(tradeable()[1])
-                with col3:
-                    st.write(tradeable()[2])
-                with col4:
-                    st.write(tradeable()[5])
-                with col5:
-                    st.write(tradeable()[6])
-                with col6:
-                    st.write(tradeable()[3])
-                with col7:
-                    st.write(tradeable()[4])
-            else:
-                pass
+                with st.container():
+                    # col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
+                    if tradeable()[1] == buy or tradeable()[1] == new_high:
+                        with col1:
+                            st.write(tradeable()[0])
+                        with col2:
+                            st.write(tradeable()[1])
+                        with col3:
+                            st.write(tradeable()[2])
+                        with col4:
+                            st.write(tradeable()[5])
+                        with col5:
+                            st.write(tradeable()[6])
+                        with col6:
+                            st.write(tradeable()[3])
+                        with col7:
+                            st.write(tradeable()[4])
+                    else:
+                        pass
 
         except KeyError:
             pass
-        
-        # with st.spinner(text='Analiz Edliyor'):
-        #     time.sleep(0.1)
-        #     st.success('Tamamlandı')  
+    # with st.spinner(text='Analiz Edliyor'):
+    #     time.sleep(5)
+    #     st.success('Tamamlandı')      
 stop_button = st.button('Sil')
   
     # #Get some data.
