@@ -20,10 +20,12 @@ BIST TRADER
 subheader = '<p style="font-family:Courier; color:red; font-size: 20px;">Analiz Etmeden Hisse alma</p>'
 st.markdown(subheader, unsafe_allow_html=True)
 tickerList = pd.read_csv("docs/Viop.csv")
+ticker_all_List = pd.read_csv("docs/bist.csv")
 tickers=tickerList["Ticker"]
+tickers_all=ticker_all_List["Ticker"]
 start_date=(date.today()-timedelta(days=360))
 data_source='yahoo'
-user_input = st.selectbox('Hisse',tickers,index=0,help='Analiz Etmek İstediğiniz Hisseyi Seçebilirsiniz.')
+user_input = st.selectbox('Hisse',tickers_all,index=151,help='Analiz Etmek İstediğiniz Hisseyi Seçebilirsiniz.')
 if user_input:
     st.write(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
     try:
@@ -121,6 +123,7 @@ if user_input:
         with col6:
             st.markdown('**Zarar Pot.**')
             st.write(tradeable()[4])
+   
         
 st.subheader('BIST50 Al Tavsiyeleri')
 #Analyze ALL
