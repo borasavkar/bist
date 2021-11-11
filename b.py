@@ -256,6 +256,6 @@ if analyze_all_btn:
         except KeyError:
             pass
     analzye_finished = '<p style="font-family:Courier; color:red; font-size: 20px;">Analiz Bitti!</p>'
-    st.markdown(analyze_finished, unsafe_allow_html=True)
+    st.markdown(analzye_finished, unsafe_allow_html=True)
     definition = st.write('İşte Sana Bugünkü Al Listem :-)')
     delete_button = st.button('Sil')
