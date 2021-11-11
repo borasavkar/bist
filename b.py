@@ -25,7 +25,7 @@ tickers=tickerList["Ticker"]
 tickers_all=ticker_all_List["Ticker"]
 start_date=(date.today()-timedelta(days=360))
 data_source='yahoo'
-user_input = st.selectbox('Hisse',tickers_all,index=151,help='Analiz Etmek İstediğiniz Hisseyi Seçebilirsiniz.')
+user_input = st.selectbox('Hisse',tickers_all,index=147,help='Analiz Etmek İstediğiniz Hisseyi Seçebilirsiniz.')
 if user_input:
     st.write(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
     try:
