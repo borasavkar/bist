@@ -8,7 +8,6 @@ import csv
 import streamlit as st
 import time
 
-
 st.set_page_config(
      page_title="Bist Trader",
      page_icon="💲",
