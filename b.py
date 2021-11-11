@@ -123,18 +123,17 @@ if user_input:
         with col6:
             st.markdown('**Zarar Pot.**')
             st.write(tradeable()[4])
-   
-        
 st.subheader('BIST50 Al Tavsiyeleri')
 #Analyze ALL
-
-analyze_all_btn = st.button('BIST50 Al Önerileri')
+analyze_all_btn = st.button('BIST50 Hisselerini Analiz Et')
 if analyze_all_btn:
     st.write(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
-    '''
-    Bu biraz zaman alabilir
-    bütün hisseler tek tek analiz ediliyor...
-    '''
+    definition = st.write('Bu biraz zaman alabilir bütün hisseler tek tek analiz ediliyor...')
+    # '''
+    # Bu biraz zaman alabilir
+    # bütün hisseler tek tek analiz ediliyor...
+    # '''
+    # analyze_bar = st.progress(0)
     analyze_bar = st.progress(0)
     with st.container():
         col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
@@ -153,15 +152,12 @@ if analyze_all_btn:
         with col7:
             st.markdown('**Zarar Pot.**')
     for i in tickers:
-        with st.spinner(text='Analiz Edliyor'):
+        with st.spinner(text='Analiz Edilen --    ' + tradeable()[0] ):
             time.sleep(1)
-            # st.success('Tamamlandı')
- 
-        
+        for precent_complete in range(100):
+                time.sleep(0.000000001)
+                analyze_bar.progress(precent_complete + 1)
         try:
-            for precent_complete in range(100):
-                    time.sleep(0.001)
-                    analyze_bar.progress(precent_complete + 1)
             ticker = i
             ticker_data=wb.DataReader(ticker,data_source=data_source,start=start_date)
             df=pd.DataFrame(ticker_data)
@@ -259,32 +255,7 @@ if analyze_all_btn:
 
         except KeyError:
             pass
-        
-        # with st.spinner(text='Analiz Edliyor'):
-        #     time.sleep(0.1)
-        #     st.success('Tamamlandı')  
-stop_button = st.button('Sil')
-  
-    # #Get some data.
-    # data = c
-    # data2 = h
-    # data3 = l
-    
-
-    # # Show the data as a chart.
-    # chart = st.area_chart(data)
-    # chart.add_rows(data2)
-    # chart.add_rows(data3)
-
-    # #Wait 1 second, so the change is clearer.
-    # time.sleep(1)
-    
-
-# st.write("### Name:  ",tradeable()[0])
-# st.write("### Trade Recommendation:   ", tradeable()[1])
-# st.write("""### Last Price:""",tradeable()[2])
-# st.write("""### Earn Potential:""",tradeable()[3])
-# st.write("""### Loss Potential:""",tradeable()[4])
-# st.write("""### Target Sale Price:""",tradeable()[5])
-# st.write("""### Stop-Loss Price:""",tradeable()[6])
-    
+    analzye_finished = '<p style="font-family:Courier; color:red; font-size: 20px;">Analiz Bitti!</p>'
+    st.markdown(analyze_finished, unsafe_allow_html=True)
+    definition = st.write('İşte Sana Bugünkü Al Listem :-)')
+    delete_button = st.button('Sil')
