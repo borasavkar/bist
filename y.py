@@ -126,7 +126,7 @@ if daily_btn:
             st.write('**Zarar Kes**')
             st.write(tradeable()[6])
         with col5:
-            st.write('**Kar Hedefi**')
+            st.write('**Kar Pot.**')
             st.write(tradeable()[3])
         with col6:
             st.markdown('**Zarar Pot.**')
@@ -224,7 +224,7 @@ elif FiveM_btn:
             st.write('**Zarar Kes**')
             st.write(tradeable()[6])
         with col5:
-            st.write('**Kar Hedefi**')
+            st.write('**Kar Pot.**')
             st.write(tradeable()[3])
         with col6:
             st.markdown('**Zarar Pot.**')
@@ -322,7 +322,7 @@ elif Hour_btn:
             st.write('**Zarar Kes**')
             st.write(tradeable()[6])
         with col5:
-            st.write('**Kar Hedefi**')
+            st.write('**Kar Pot.**')
             st.write(tradeable()[3])
         with col6:
             st.markdown('**Zarar Pot.**')
@@ -347,7 +347,7 @@ if analyze_all_btn:
         with col5:
             st.write('**Zarar Kes**')
         with col6:
-            st.write('**Kar Hedefi**')
+            st.write('**Kar Pot.**')
         with col7:
             st.markdown('**Zarar Pot.**')
     for i in tickers:
