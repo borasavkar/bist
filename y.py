@@ -351,21 +351,13 @@ if analyze_all_btn:
         with col7:
             st.markdown('**Zarar Pot.**')
     for i in tickers:
-        # with st.spinner(text='Analiz Edilen --    ' + tradeable()[0] ):
-        #     time.sleep(1)
-        # for precent_complete in ticker_data:
-        #         time.sleep(0.000000001)
-        #         analyze_bar.progress(precent_complete + 1)
         try:
             ticker = i
             ticker_data=yf.download(ticker,period="1y")
             df=pd.DataFrame(ticker_data)
-            for percent_complete in range(53):
+            for percent_complete in range(100):
                 time.sleep(0)
                 analyze_bar.progress(percent_complete)
-            # for precent_complete in range(100):
-            #     time.sleep(0.000000001)
-            #     analyze_bar.progress(precent_complete)
             ticker_date=ticker_data.index
             last_10_days_lastDayExcluded=ticker_date[-10:-1]
             c=df['Close']
