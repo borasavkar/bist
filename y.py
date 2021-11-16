@@ -7,7 +7,7 @@ import time
 import yfinance as yf
 import locale
 
-locale.setlocale(locale.LC_ALL, 'tr-tr')
+locale.setlocale(locale.LC_ALL, '')
 st.set_page_config(
      page_title="Bist Trader",
      page_icon="💲",
