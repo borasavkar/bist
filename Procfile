@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run b.py
+web: sh setup.sh && streamlit run y.py
