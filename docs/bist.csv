@@ -23,7 +23,6 @@ ALCTL.IS,Alcatel Lucent Teletas Telekomunikasyon A.S.,IST,,Turkey
 ALGYO.IS,Alarko Gayrimenkul Yatirim Ortakligi A.S.,IST,,Turkey
 ALKA.IS,Alkim Kagit Sanayi ve Ticaret AS,IST,,Turkey
 ALKIM.IS,Alkim Alkali Kimya Anonim Sirketi,IST,,Turkey
-ALYAG.IS,Altinyag Combine Inc.,IST,,Turkey
 ANELE.IS,Anel Elektrik Proje Taahhut ve Ticaret Anonim Sirketi,IST,,Turkey
 ANELT.IS,Anel Telekomunikasyon Elektronik Sistemleri Sanayi ve Ticaret A.S.,IST,,Turkey
 ANHYT.IS,Anadolu Hayat Emeklilik Anonim Sirket,IST,,Turkey
@@ -34,7 +33,6 @@ ARMDA.IS,Armada Bilgisayar Sistemleri Sanayi ve Ticaret A.S.,IST,,Turkey
 ARSAN.IS,Arsan Tekstil Ticaret ve Sanayi Anonim Sirketi,IST,,Turkey
 ARTI.IS,Arti Yatirim Holding A.S.,IST,,Turkey
 ASELS.IS,Aselsan Elektronik Sanayi ve Ticaret Anonim Sirketi,IST,,Turkey
-ASLAN.IS,Aslan Cimento S.A.,IST,,Turkey
 ASUZU.IS,Anadolu Isuzu Otomotiv Sanayi ve Ticaret A.S.,IST,,Turkey
 ATAGY.IS,Ata Gayrimenkul Yatirim Ortakligi Anonim Sirketi,IST,,Turkey
 ATEKS.IS,Akin Tekstil Anonim Sirketi,IST,,Turkey
@@ -42,7 +40,6 @@ ATLAS.IS,Atlas Menkul Kiymetler Yatirim Ortakligi A.S.,IST,,Turkey
 ATSYH.IS,Atlantis Yatirim Holding A.S.,IST,,Turkey
 AVGYO.IS,Avrasya Gayrimenkul Yatirim Ortakligi Anonim Sirketi,IST,,Turkey
 AVHOL.IS,Avrupa Yatirim Holding A.S.,IST,,Turkey
-AVISA.IS,AvivaSA Emeklilik ve Hayat Anonim Sirketi,IST,,Turkey
 AVOD.IS,A.V.O.D Kurutulmus Gida ve Tarim Urunleri Sanayi Ticaret A.S,IST,,Turkey
 AVTUR.IS,Avrasya Petrol ve Turistik Tesisler Yatirimlar Anonim Sirketi,IST,,Turkey
 AYCES.IS,Altin Yunus cesme Turistik Tesisler A.S.,IST,,Turkey
@@ -61,12 +58,8 @@ BIMAS.IS,BIM Birlesik Magazalar A.S.,IST,,Turkey
 BIZIM.IS,Bizim Toptan Satis Magazalari A.S.,IST,,Turkey
 BJKAS.IS,Besiktas Futbol Yatirimlari Sanayi ve Ticaret A.S.,IST,,Turkey
 BLCYT.IS,Bilici Yatirim Sanayi ve Ticaret A.S.,IST,,Turkey
-BMEKS.IS,Bimeks Bilgi Islem Ve Dis Ticaret A.S.,IST,,Turkey
-BMELK.IS,Bomonti Elektrik Muhendislik Musavirlik Insaat Turizm Ve Ticaret A.S.,IST,,Turkey
 BNTAS.IS,Bantas Bandirma Ambalaj Sanayi Ve Ticaret A.S.,IST,,Turkey
-BOLUC.IS,Bolu cimento Sanayii Anonim Sirketi,IST,,Turkey
 BOSSA.IS,Bossa Ticaret ve Sanayi Isletmeleri T. Anonim Sirketi,IST,,Turkey
-BOYP.IS,Boyner Perakende ve Tekstil Yatirimlari Anonim Sirketi,IST,,Turkey
 BRISA.IS,Brisa Bridgestone Sabanci Lastik Sanayi ve Ticaret AS,IST,,Turkey
 BRKO.IS,Birko Birlesik Koyunlulular Mensucat Ticaret Ve Sanayi A.S.,IST,,Turkey
 BRKSN.IS,Berkosan A.S.,IST,,Turkey
@@ -93,9 +86,7 @@ CUSAN.IS,Cuhadaroglu Metal Sanayi ve Pazarlama A.S.,IST,,Turkey
 DAGHL.IS,Dagi Yatirim Holding A.S.,IST,,Turkey
 DAGI.IS,Dagi Giyim Sanayi ve Ticaret A.S.,IST,,Turkey
 DARDL.IS,Dardanel Onentas Gida Sanayi A.S.,IST,,Turkey
-DENCM.IS,Denizli Cam Sanayii ve Ticaret A.S.,IST,,Turkey
 DENGE.IS,Denge Yatirim Holding A.S.,IST,,Turkey
-DENIZ.IS,Denizbank Anonim Sirketi,IST,,Turkey
 DERIM.IS,Derimod Konfeksiyon Ayakkabi Deri Sanayi ve Ticaret A.S.,IST,,Turkey
 DESA.IS,Desa Deri Sanayi ve Ticaret A.S.,IST,,Turkey
 DESPC.IS,Despec Bilgisayar Pazarlama ve Ticaret Anonim Sirketi,IST,,Turkey
@@ -165,8 +156,6 @@ GSDDE.IS,GSD Denizcilik Gayrimenkul Insaat Sanayi ve Ticaret Anonim Sirketi,IST,
 GSDHO.IS,GSD Holding A.S.,IST,,Turkey
 GSRAY.IS,Galatasaray Sportif Sinai ve Ticari Yatirimlar A.S.,IST,,Turkey
 GUBRF.IS,Gubre Fabrikalari T.A.S.,IST,,Turkey
-GUSGR.IS,Gunes Sigorta Anonim Sirketi,IST,,Turkey
-GYHOL.IS,Gedik Yatirim Holding AS,IST,,Turkey
 HALKB.IS,Turkiye Halk Bankasi Anonim Sirketi,IST,,Turkey
 HATEK.IS,Hateks Hatay Tekstil Isletmeleri A.S.,IST,,Turkey
 HDFGS.IS,Hedef Girisim Sermayesi Yatirim Ortakligi A.S.,IST,,Turkey
@@ -191,7 +180,6 @@ ISCTR.IS,Turkiye Is Bankasi Anonim Sirketi,IST,,Turkey
 ISDMR.IS,Iskenderun Demir ve celik A.S.,IST,,Turkey
 ISFIN.IS,Is Finansal Kiralama Anonim Sirketi,IST,,Turkey
 ISGYO.IS,Is Gayrimenkul Yatirim Ortakligi A.S.,IST,,Turkey
-ISKUR.IS,Turkiye Is Bankasi Anonim Sirketi,IST,,Turkey
 ISMEN.IS,Is Yatirim Menkul Degerler Anonim Sirketi,IST,,Turkey
 ISYAT.IS,Is Yatirim Ortakligi A.S.,IST,,Turkey
 ITTFH.IS,Ittifak Holding A.S.,IST,,Turkey
@@ -218,27 +206,23 @@ KONYA.IS,Konya cimento Sanayii Anonim Sirketi,IST,,Turkey
 KORDS.IS,Kordsa Global Endustriyel Iplik ve Kord Bezi Sanayi ve Ticaret A.S.,IST,,Turkey
 KOZAA.IS,Koza Anadolu Metal Madencilik Isletmeleri A.S.,IST,,Turkey
 KOZAL.IS,Koza Altin Isletmeleri A.S.,IST,,Turkey
-KPHOL.IS,Kapital Yatirim Holding AS,IST,,Turkey
 KRDMA.IS,Kardemir Karabuk Demir celik Sanayi Ve Ticaret A.S.,IST,,Turkey
 KRDMB.IS,Kardemir KarabUk Demir celik Sanayi Ve Ticaret A.S.,IST,,Turkey
 KRDMD.IS,Kardemir Karabuk Demir celik Sanayi Ve Ticaret A.S.,IST,,Turkey
 KRGYO.IS,Korfez Gayrimenkul Yatirim Ortakligi A.S.,IST,,Turkey
 KRONT.IS,Kron Telekomunikasyon Hizmetleri A.S.,IST,,Turkey
-KRSAN.IS,Karsusan Karadeniz Su Urunleri Sanayii A.S.,IST,,Turkey
 KRSTL.IS,Kristal Kola ve Mesrubat Sanayi Ticaret A.S.,IST,,Turkey
 KRTEK.IS,Karsu Tekstil Sanayii ve Ticaret A.S.,IST,,Turkey
-KSTUR.IS,Kustur Kusadasi Turizm Endustrisi A.S.,IST,,Turkey
 KUTPO.IS,Kutahya Porselen Sanayi Anonim Sirketi,IST,,Turkey
 KUYAS.IS,Kuyumcukent Gayrimenkul Yatirimlari A.S.,IST,,Turkey
 LIDFA.IS,Lider Faktoring A.S.,IST,,Turkey
 LINK.IS,Link Bilgisayar Sistemleri Yazilimi ve Donanimi Sanayi ve Ticaret A.S.,IST,,Turkey
-LKMNH.IS,Lokman Hekim Engurusag Saglik Turizm Egitim Hizmetleri ve Insaat Taahhut A.S.,IST,,Turkey"
+LKMNH.IS,Lokman Hekim Engurusag Saglik Turizm Egitim Hizmetleri ve Insaat Taahhut A.S.,IST,,Turkey
 LOGO.IS,Logo Yazilim Sanayi ve Ticaret A.S.,IST,,Turkey
 LUKSK.IS,Luks Kadife Ticaret ve Sanayi A.S.,IST,,Turkey
 MAALT.IS,Marmaris Altinyunus Turistik Tesisler Anonim Sirketi,IST,,Turkey
 MAKTK.IS,Makina Takim Endustrisi A.S.,IST,,Turkey
 MARTI.IS,Marti Otel Isletmeleri A.S.,IST,,Turkey
-MAVI.IS,Mavi Giyim Sanayi ve Ticaret A.S.,,Turkey
 MEGAP.IS,Mega Polietilen Kopuk Sanayi ve Ticaret Anonim Sirketi,IST,,Turkey
 MEMSA.IS,Mensa Sinai Ticari ve Mali Yatirimlar A.S.,IST,,Turkey
 MEPET.IS,Mepet Metro Petrol ve Tesisleri Sanayi Ticaret A.S.,IST,,Turkey
@@ -249,12 +233,6 @@ METRO.IS,Metro Ticari ve Mali Yatirimlar Holding A.S.,IST,,Turkey
 METUR.IS,Metemtur Otelcilik ve Turizm Isletmeleri A.S.,IST,,Turkey
 MGROS.IS,Migros Ticaret A.S.,IST,,Turkey
 MIPAZ.IS,Milpa Ticari ve Sinai Urunler Pazarlama Sanayi ve Ticaret A.S.,IST,,Turkey
-MMCAS.IS,MMC Sanayi Ve Ticari Yatirimlar A.S.,IST,,Turkey
-MNDRS.IS,Menderes Tekstil Sanayi ve Ticaret Anonim Sirketi,IST,,Turkey
-MRDIN.IS,Mardin cimento Sanayii ve Ticaret Anonim Sirketi,IST,,Turkey
-MRGYO.IS,Marti Gayrimenkul Yatirim Ortakligi A.S.,IST,,Turkey
-MRSHL.IS,Marshall Boya Ve Vernik Sanayii A.S.,IST,,Turkey
-MZHLD.IS,Mazhar Zorlu Holding A.S.,IST,,Turkey
 NETAS.IS,Netas Telekomunikasyon A.S.,IST,,Turkey
 NIBAS.IS,Nigbas Nigde Beton Sanayi Ve Ticaret A.S.,IST,,Turkey
 NTHOL.IS,Net Holding A.S,IST,,Turkey
@@ -339,7 +317,6 @@ TMSN.IS,Tumosan Motor ve Traktor Sanayi A.S.,IST,,Turkey
 TOASO.IS,Tofas Turk Otomobil Fabrikasi A.S.,IST,,Turkey
 TRCAS.IS,Turcas Petrol A.S.,IST,,Turkey
 TRGYO.IS,Torunlar Gayrimenkul Yatirim Ortakligi A.S.,IST,,Turkey
-TRKCM.IS,Trakya Cam Sanayii A.S.,IST,,Turkey
 TSGYO.IS,TSKB Gayrimenkul Yatirim Ortakligi A.S,IST,,Turkey
 TSKB.IS,Turkiye Sinai Kalkinma Bankasi A.S.,IST,,Turkey
 TSPOR.IS,Trabzonspor Sportif Yatirim ve Futbol Isletmeciligi Ticaret A.S.,IST,,Turkey
@@ -354,7 +331,6 @@ ULKER.IS,Ulker Biskuvi Sanayi A.S.,IST,,Turkey
 ULUSE.IS,Ulusoy Elektrik Imalat Taahhut ve Ticaret A.S.,IST,,Turkey
 ULUUN.IS,Ulusoy Un Sanayi ve Ticaret A.S.,IST,,Turkey
 UMPAS.IS,Umpas Holding A.S.,IST,,Turkey
-UNYEC.IS,Unye cimento Sanayii ve Ticaret A.S.,IST,,Turkey
 USAK.IS,Usak Seramik Sanayi A.S.,IST,,Turkey
 UTPYA.IS,Utopya Turizm Insaat Isletmecilik Ticaret A.S.,IST,,Turkey
 UZERB.IS,Uzertas Boya Sanayi Ticaret ve Yatirim Anonim Sirketi,IST,,Turkey
@@ -377,7 +353,6 @@ YESIL.IS,Yesil Yatirim Holding Anonim Sirketi,IST,,Turkey
 YGGYO.IS,Yeni Gimat Gayrimenkul Yatirim Ortakligi A.S.,IST,,Turkey
 YGYO.IS,Yesil Gayrimenkul Yatirim Ortakligi A.S.,IST,,Turkey
 YKBNK.IS,Yapi ve Kredi Bankasi A.S.,IST,,Turkey
-YKGYO.IS,Yapi Kredi Koray Gayrimenkul Yatirim Ortakligi A.S.,IST,,Turkey
 YONGA.IS,Yonga Mobilya Sanayi ve Ticaret A.S.,IST,,Turkey
 YUNSA.IS,Yunsa Yunlu Sanayi ve Ticaret A.S.,IST,,Turkey
 YYAPI.IS,Yesil Yapi Endustrisi A.S.,IST,,Turkey
