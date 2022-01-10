@@ -23,7 +23,7 @@ ticker_all_List = pd.read_csv("docs/bist.csv")
 tickers=ViopList["Ticker"]
 ViopList_len=len(tickers)
 tickers_all=ticker_all_List["Ticker"]
-user_input = st.selectbox('Hisse',tickers_all,index=147,help='Analiz Etmek İstediğiniz Hisseyi Seçebilirsiniz.')
+user_input = st.selectbox('Hisse',tickers_all,index=138,help='Analiz Etmek İstediğiniz Hisseyi Seçebilirsiniz.')
 with st.container():
     col1, col2, col3 = st.columns(3)
     with col1:
