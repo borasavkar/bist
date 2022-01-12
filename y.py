@@ -16,7 +16,7 @@ st.title("""
 BIST TRADER
 
 """)
-subheader = '<p style="font-family:Courier; color:#0300FF; font-size: 20px;font-style: italic;">Analiz etmemi istediğiniz hisseyi ve zaman aralığını seçin sizin için tavsiyemi söyleyeyim.</p>'
+subheader = '<p style="font-family:Courier; color:MediumSeaGreen; font-size: 20px;font-style: italic;font-weight: bold">Analiz etmemi istediğiniz hisseyi ve zaman aralığını seçin sizin için tavsiyemi söyleyeyim.</p>'
 st.markdown(subheader, unsafe_allow_html=True)
 ViopList = pd.read_csv("docs/Viop.csv")
 ticker_all_List = pd.read_csv("docs/bist.csv")
@@ -389,7 +389,7 @@ elif Hour_btn:
             st.warning(tradeable()[4])
 #Analyze ALL Bist50
 st.subheader('BIST50 TRADE')
-subheader_bist50 = '<p style="font-family:Courier; color:#0300FF; font-size: 20px;font-style: italic;">Bütün BIST50 hisselerini sizin için analiz edebip Al veya Güçlü Al listesi çıkarabilirim.</p>'
+subheader_bist50 = '<p style="font-family:Courier; color:MediumSeaGreen; font-size: 20px;font-style: italic;font-weight: bold">Bütün BIST50 hisselerini sizin için analiz edebip Al veya Güçlü Al listesi çıkarabilirim.</p>'
 st.markdown(subheader_bist50, unsafe_allow_html=True)
 col1,col2=st.columns(2)
 with col1:
@@ -676,7 +676,7 @@ if strong_buy_bist50_btn:
     delete_button = st.button('Sil')
 #Analyze ALL Bist
 st.subheader('BIST Tüm Al Tavsiyeleri')
-subheader_bistTum = '<p style="font-family:Courier; color:#0300FF; font-size: 20px;font-style: italic;">Tüm hisseleri analiz etmemi istiyorsan Al Tavsiyelerim veya Güçlü Al Veren Hisselere basabilirsin.</p>'
+subheader_bistTum = '<p style="font-family:Courier; color:MediumSeaGreen; font-size: 20px;font-style: italic;font-weight: bold">Tüm hisseleri analiz etmemi istiyorsan Al Tavsiyelerim veya Güçlü Al Veren Hisselere basabilirsin.</p>'
 st.markdown(subheader_bistTum, unsafe_allow_html=True)
 uzgunum_text="<p style='font-family:Courier; color:red; font-size: 15px;'>Üzgünüm ama 600'e yakın hisse senedini analiz edeceğim için biraz uzun sürebilir.</p>"
 st.caption(uzgunum_text,unsafe_allow_html=True)
