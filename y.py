@@ -56,7 +56,7 @@ if daily_btn:
         new_high=str(recommendationList[1])
         buy=str(recommendationList[2])
         dontBuy=str(recommendationList[3])
-        @st.cache
+        @st.cache_data
         def tradeable():
             if (last_price<min10):
                 str_ticker=str("{}".format(ticker))
@@ -174,7 +174,7 @@ elif FiveM_btn:
         new_high=str(recommendationList[1])
         buy=str(recommendationList[2])
         dontBuy=str(recommendationList[3])
-        @st.cache
+        @st.cache_data
         def tradeable():
             if (last_price<min10):
                 str_ticker=str("{}".format(ticker))
@@ -292,7 +292,7 @@ elif Hour_btn:
         new_high=str(recommendationList[1])
         buy=str(recommendationList[2])
         dontBuy=str(recommendationList[3])
-        @st.cache
+        @st.cache_data
         def tradeable():
             if (last_price<min10):
                 str_ticker=str("{}".format(ticker))
@@ -444,7 +444,7 @@ if analyze_Bist50_btn:
             new_high=str(recommendationList[1])
             buy=str(recommendationList[2])
             dontBuy=str(recommendationList[3])
-            @st.cache
+            @st.cache_data
             def tradeable():
                 if (last_price<min10):
                     str_ticker=str("{}".format(ticker))
@@ -583,7 +583,7 @@ if strong_buy_bist50_btn:
             new_high=str(recommendationList[1])
             buy=str(recommendationList[2])
             dontBuy=str(recommendationList[3])
-            @st.cache
+            @st.cache_data
             def tradeable():
                 if (last_price<min10):
                     str_ticker=str("{}".format(ticker))
@@ -730,7 +730,7 @@ if analyze_all_btn:
             new_high=str(recommendationList[1])
             buy=str(recommendationList[2])
             dontBuy=str(recommendationList[3])
-            @st.cache
+            @st.cache_data
             def tradeable():
                 if (last_price<min10):
                     str_ticker=str("{}".format(ticker))
@@ -865,7 +865,7 @@ if analyze_all_btn_best:
             new_high=str(recommendationList[1])
             buy=str(recommendationList[2])
             dontBuy=str(recommendationList[3])
-            @st.cache
+            @st.cache_data
             def tradeable():
                 if (last_price<min10):
                     str_ticker=str("{}".format(ticker))
